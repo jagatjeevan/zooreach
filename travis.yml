@@ -11,7 +11,7 @@ script:
 deploy:
   provider: pages
   skip-cleanup: true
-  github-token: $PORTFOLIO_TOKEN
+  github-token: $JOTTSTYLE_TOKEN
   local-dir: build
   keep-history: true
   on:
